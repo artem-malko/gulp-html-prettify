@@ -1,17 +1,26 @@
 {
   "name": "gulp-html-prettify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HTML Prettify Plugin for Gulp",
   "keywords": [
     "gulpplugin"
   ],
-  "repository": "https://github.com/colynb/gulp-html-prettify",
+  "repository": "https://github.com/artem-malko/gulp-html-prettify",
   "author": "Colyn Brown <colyn.brown@gmail.com>",
+  "contributors": [
+    {
+      "name": "Artem Malko",
+      "email": "artem.malko@gmail.com"
+    }, {
+      "name": "Colyn Brown",
+      "email": "colyn.brown@gmail.com"
+    }
+  ],
   "dependencies": {
     "event-stream": "~3.0.16",
     "clone": "~0.1.11",
     "gulp-util": "0.0.1",
-    "html": "git://github.com/colynb/commonjs-html-prettyprinter.git"
+    "html": "https://github.com/colynb/commonjs-html-prettyprinter/archive/master.tar.gz"
   },
   "main": "index.js",
   "engines": {
